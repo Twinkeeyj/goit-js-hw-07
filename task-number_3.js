@@ -31,7 +31,7 @@ const images = [
 ];
 const gallery = document.querySelector("ul#gallery")
 
-for (let i = 0; i < images.length; i++) {
+  for (let i = 0; i < images.length; i++) {
   let a = images[i]
   let li = gallery.insertAdjacentHTML('afterend', `<li class="list"  ><img class="decorations" src=${a.url} alt="${a.alt}"></li>`)
 // console.log(a);

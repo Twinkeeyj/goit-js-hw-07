@@ -24,3 +24,4 @@ let items = el.querySelectorAll('li').length
 
 console.log(`Категории ${title}\nКолличество элементов:${items}`);});
 fn(list)
+
