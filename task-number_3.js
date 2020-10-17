@@ -31,16 +31,8 @@ const images = [
 ];
 const gallery = document.querySelector("ul#gallery")
 
-for (let i = 0; i < images.length; i++){
-    let li = document.insertAdjacentHTML(`<li>img</li>`)
-    gallery.append(li);
-    // let img=document.gallery.li.createElement('img')
-    // gallery.append(li);
-  // li.textContent=ingredients[i]
+for (let i = 0; i < images.length; i++) {
+  let a = images[i]
+  let li = gallery.insertAdjacentHTML('afterend', `<li class="list"  ><img class="decorations" src=${a.url} alt="${a.alt}"></li>`)
+// console.log(a);
 }
-
-// for (let i = 0; i < ingredients.length; i++){
-//   let li = document.createElement('li')
-//   listProducts.append(li);
-//   li.textContent=ingredients[i]
-// }
