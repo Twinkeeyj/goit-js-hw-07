@@ -23,35 +23,9 @@ const ingredients = [
   'Зелень',
   'Приправы',
 ];
-const listProducts = document.querySelectorAll("ul#ingredients")
-
-const liist = document.querySelectorAll("ul#categories>li");
-
-const a = ingredients.map(num => {
-  let c; c = document.createElement(`${num}`);
-  console.log(c);
-  liist.append()
-})
-
-document.createElement('ingredients')
-// listProducts.Products.append(b)
-
-console.log(a);
-
-
-
-// range.addEventListener('input', e => {
-//   const output = document.querySelectorAll('.output');
-//   output
-//     ? output.forEach(el => {
-//         el.style.fontSize = `${range.value}px`;
-//       })
-//     : '';
-// });
-// (autput.style.fontSize = `${range.value}px`)
-// autput
-//   ? autput.forEach(el => {
-//       el.style.fontSize = `${range.value}px`;
-//     })
-
-// const divList = document.querySelectorAll('div');
+let listProducts = document.querySelector("ul#ingredients")
+for (let i = 0; i < ingredients.length; i++){
+  let li = document.createElement('li')
+  listProducts.append(li);
+  li.textContent=ingredients[i]
+}
