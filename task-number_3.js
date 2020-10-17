@@ -36,7 +36,7 @@ for (let i = 0; i < images.length; i++){
     gallery.append(li);
     // let img=document.gallery.li.createElement('img')
     // gallery.append(li);
-  li.textContent=ingredients[i]
+  // li.textContent=ingredients[i]
 }
 
 // for (let i = 0; i < ingredients.length; i++){
