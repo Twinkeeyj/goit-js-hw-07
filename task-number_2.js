@@ -26,10 +26,25 @@ const ingredients = [
 const listProducts = document.querySelectorAll("ul#ingredients")
 
 
-ingredients.forEach(num=> (`<li>${num}</li>`))
- document.createElement('')
- list.Products.append(bdd)
+const a= ingredients.forEach(num => {  document.createElement( `<li>${num}</li>`) })
+//  document.createElement('')
+listProducts.Products.append(a)
 console.log(a);
 
+
+
+// range.addEventListener('input', e => {
+//   const output = document.querySelectorAll('.output');
+//   output
+//     ? output.forEach(el => {
+//         el.style.fontSize = `${range.value}px`;
+//       })
+//     : '';
+// });
+// (autput.style.fontSize = `${range.value}px`)
+// autput
+//   ? autput.forEach(el => {
+//       el.style.fontSize = `${range.value}px`;
+//     })
 
 // const divList = document.querySelectorAll('div');
