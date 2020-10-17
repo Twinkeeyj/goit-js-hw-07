@@ -25,10 +25,17 @@ const ingredients = [
 ];
 const listProducts = document.querySelectorAll("ul#ingredients")
 
+const liist = document.querySelectorAll("ul#categories>li");
 
-const a= ingredients.forEach(num => {  document.createElement( `<li>${num}</li>`) })
-//  document.createElement('')
-listProducts.Products.append(a)
+const a = ingredients.map(num => {
+  let c; c = document.createElement(`${num}`);
+  console.log(c);
+  liist.append()
+})
+
+document.createElement('ingredients')
+// listProducts.Products.append(b)
+
 console.log(a);
 
 
