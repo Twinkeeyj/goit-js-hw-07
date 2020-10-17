@@ -25,9 +25,9 @@ const ingredients = [
 ];
 const listProducts = document.querySelectorAll("ul#ingredients")
 
-let a='';
-ingredients.forEach(num=> a+=(`<li>${num}</li>`))
-const bdd = document.createElement('sdfdsfds')
+
+ingredients.forEach(num=> (`<li>${num}</li>`))
+ document.createElement('')
  list.Products.append(bdd)
 console.log(a);
 
