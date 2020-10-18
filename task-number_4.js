@@ -13,22 +13,18 @@
 const plus = document.querySelector("[data-action='increment']");
 const minus = document.querySelector("[data-action='decrement']");
 const listener = document.querySelector("counter")    
-const result = document.querySelector("ul#value")
-const result1 = document.querySelector(".ck")
+const result = document.querySelector("span#value")
 
 
-let counterValue = Number(result1.textContent)
+
+let counterValue = Number(result.textContent)
 
 const increment= plus.addEventListener('click',e=> {
     counterValue += 1;
-    result1.textContent = counterValue;
-
- 
-
+    result.textContent = `${counterValue}`
 });
 
 const decrement= minus.addEventListener('click', e => {
     counterValue -= 1;
-    result1.textContent = counterValue;
-  
+    result.textContent = `${counterValue}`
 });
