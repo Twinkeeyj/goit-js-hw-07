@@ -15,7 +15,7 @@
 const range= document.querySelector("#font-size-control");
 const text = document.querySelector("#text")
 
-console.log(text);
+
 range.addEventListener('input',() => {
   text.style=`font-size:${range.value}px`
 })
