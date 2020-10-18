@@ -27,4 +27,4 @@ const increment= plus.addEventListener('click',e=> {
 const decrement= minus.addEventListener('click', e => {
     counterValue -= 1;
     result.textContent = `${counterValue}`
-});
+})
