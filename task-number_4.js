@@ -19,12 +19,12 @@ const result = document.querySelector("span#value")
 
 let counterValue = Number(result.textContent)
 
-const increment= plus.addEventListener('click',e=> {
+const increment= plus.addEventListener('click',()=> {
     counterValue += 1;
     result.textContent = `${counterValue}`
 });
 
-const decrement= minus.addEventListener('click',e=> {
+const decrement= minus.addEventListener('click',()=> {
     counterValue -= 1;
     result.textContent = `${counterValue}`
 })
