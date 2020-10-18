@@ -35,6 +35,6 @@ inpute.addEventListener("change", (e) => {
         inpute.classList.remove('valid')
         inpute.classList.add('invalid')
     }
-    console.log(inpute.value.length);
-    console.log(data);
+    console.log(inpute.value.length)
+    console.log(data)
 })
