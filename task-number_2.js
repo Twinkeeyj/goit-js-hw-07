@@ -28,8 +28,9 @@ let listProducts = document.querySelector("ul#ingredients")
 
 ingredients.forEach(ing => {
   let li = document.createElement('li')
+  li.textContent=ing
   listProducts.append(li);
-   li.textContent=ing
+
 } )
 
 // for (let i = 0; i < ingredients.length; i++){
