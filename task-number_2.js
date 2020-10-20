@@ -24,8 +24,16 @@ const ingredients = [
   'Приправы',
 ];
 let listProducts = document.querySelector("ul#ingredients")
-for (let i = 0; i < ingredients.length; i++){
+
+
+ingredients.forEach(ing => {
   let li = document.createElement('li')
   listProducts.append(li);
-  li.textContent=ingredients[i]
-}
+   li.textContent=ing
+} )
+
+// for (let i = 0; i < ingredients.length; i++){
+//   let li = document.createElement('li')
+//   listProducts.append(li);
+//   li.textContent=ingredients[i]
+// }
